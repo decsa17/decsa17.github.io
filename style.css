@@ -1,5 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:ital,wght@0,100;0,400;1,300;1,400&family=Rubik&display=swap');
 
 
-h1 {
-	color: blue;
+html {
+	background-color: FFFBE9;
 }
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 50px 0 50px;
+}
+
+.header-nav {
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.reach-me {
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: 600;
+	border: 1px solid 4F4557;
+	border-radius: 50px;
+	transition: background-color 1s ease;
+}
+
+.reach-me-button {
+	text-decoration: none;
+	color: 4F4557;
+	font-family: Open Sans;
+}
+
+.reach-me:hover {
+	background-color: A8A196;
+	border: none;
+	cursor: pointer;
+}
+
+
+/*Hero Area*/
+
+.hero {
+	margin-top: 20px;
+}
+
+.hero-message {
+	width: 40vw;
+	padding: 50px;
+
+}
+
+.hero-message h1 {
+	font-family: Rubik;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+.hero-message h2 {
+	font-family: Rubik;
+	font-size: 2em;
+	font-weight: 500;
+}
+
+.hero-message button {
+	width: 120px;
+	height: 40px;
+	font-size: 1.25em;
+	font-family: Rubik;
+	font-weight: 500;
+	border-radius: 50px;
+	transition: background-color 1s ease;
+}
+
+.hero-message button:hover {
+	border: none;
+	background-color: A8A196;
+}
+
+.hero-message button:first-of-type {
+	margin-right: 20px;
+}
+
+.hero-message h3 {
+	font-family: Rubik;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+
+.hero-image {
+	width: 30vw;
+}
+
+
+/*.logo {
+	width: 75px;
+	height: 75px;
+}*/
+
