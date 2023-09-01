@@ -7,15 +7,19 @@ Rubik
 Open Sans
 
 COLOR <<<
-Background color FFFBE9
-button hover color 4F4557
+Background color #FFFBE9
+Button hover color #4F4557
+Main color #435B66
+Highlight(pink shade) #FFC6AC
 */
 
 
 
 body {
 	background-color: #fffbe9;
+	margin: 0;
 }
+
 
 
 
@@ -27,7 +31,7 @@ body {
 
 .header-nav {
 	justify-content: space-between;
-	margin-top: 30px;
+	margin: 30px 100px 100px 100px;
 }
 
 .reach-me {
@@ -48,9 +52,14 @@ body {
 }
 
 .reach-me:hover {
-	background-color: #A8A196;
+	color: #fff;
+	background-color: #435B66;
 	border: none;
 	cursor: pointer;
+}
+
+.reach-me-button:hover {
+	color: #FFC6AC;
 }
 
 
@@ -61,6 +70,7 @@ body {
 .hero {
 	margin-top: 20px;
 	display: flex;
+	padding-left: 150px;
 }
 
 .hero-message {
@@ -131,17 +141,18 @@ body {
 	justify-content: center;
 }
 
+.project h1 {
+	font-family: Rubik;
+	font-size: 3em;
+	align-self: center;
+	color: #435B66;
+}
+
 #project-category {
 /*	width: 100%;*/
 	display: flex;
 	justify-content: center;
 }
-
-/*.project-category-list {
-	margin: 0px;
-	padding: 0px;
-}*/
-
 
 .project-category-list li {
 	display: inline;
@@ -272,6 +283,7 @@ body {
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	border: 0px;
+	background-image: url("media/sendvector.svg");
 }
 
 
@@ -284,6 +296,7 @@ body {
 	background-color: #FFC6AC;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
+	background-image: url("media/wavevector.svg");
 }
 
 #inquiry-form-description {
@@ -352,7 +365,68 @@ body {
 
 
 .footer {
-	height: 500px;
-/*	width: 100%;*/
-	background-color: beige;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.footer-box {
+	width: 80vw;
+	height: 250px;
+	background-color: #435B66;
+	border-radius: 10px;
+}
+
+
+/*About me section*/
+
+.about-me {
+	display: flex;
+/*	width: 1365.146px;*/
+	width: 100%;
+	height: 438px;
+/*	flex-shrink: 0;*/
+	padding: 50px;
+	padding-left: 150px;
+	gap: 177px;
+	margin: 0;
+	margin-bottom: 200px;
+	background-color: #FFC6AC;
+}
+
+#message-box {
+	width: 700px;
+}
+
+/*icon tests*/
+
+#icon-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 338px;
+	height: 140px;
+	gap: 32px;
+}
+#icon-container div {
+	width: 60px;
+	height: 60px;
+}
+
+
+#message-box h1 {
+	font-family: Rubik;
+	font-size: 3em;
+	font-weight: 600;
+	color: #435B66;
+}
+
+#message-box h3 {
+	font-family: Rubik;
+	font-size: 1.5em;
+	font-weight: 500;
+	color: #435B66;
+}
+
+#about-me-image {
+	width: 488.15px;
 }
